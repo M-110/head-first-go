@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"greeting/greeting"
+	"greeting/Local_Package/greeting"
 	"mypck/birthdays"
 	"mypck/holidays"
 )
