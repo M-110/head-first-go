@@ -1,9 +1,11 @@
 package dates
 
+const daysInWeek int = 7
+
 func WeeksToDays(weeks int) int {
-	return weeks * 7
+	return weeks * daysInWeek
 }
 
 func DaysToWeeks(days int) float64 {
-	return float64(days) / float64(7)
+	return float64(days) / float64(daysInWeek)
 }
